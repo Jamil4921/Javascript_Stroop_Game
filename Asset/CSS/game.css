@@ -1,0 +1,114 @@
+body{
+    font-family: 'Fredoka One';
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#header {
+    text-align: center;
+    background: rgb(0, 0, 0);
+}
+
+#header h1 {
+    padding: 2rem;
+    color: white;
+    font-size: 61px;
+    margin: 0;
+    font-family: 'Fredoka One';
+}
+
+.color{
+    color: white;
+    font-family: 'Fredoka One';
+    font-size: 50px;
+    transition: all 1.0s;
+}
+
+#buttons{
+    padding: 3rem;
+}
+
+#btn-start, #btn-eazy, #btn-hard{
+    padding: 10px 20px;
+    margin: 1em;
+    background: white;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transform: translate3d(-4px, -4px, 0);
+    font-family: sans-serif;
+    font-style: italic;
+    transition: all 0.3s;
+
+}
+
+.btn-start:hover, #btn-eazy:hover, #btn-hard:hover {
+	transform: translate3d(-8px, -8px, 0);
+    box-shadow: white 5px 6px;
+}
+
+
+.container, .container2{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.boxH, .boxE{
+    padding: 70px;
+    margin: 5%;
+    background-color: green;
+    border-radius: 15px;
+    transition: all 0.8s;
+}
+
+.boxH:hover, .boxE:hover{
+    padding: 70px;
+    margin: 5%;
+    background-color: green;
+    border-radius: 15px;
+    box-shadow: black 2px 2px;
+    transition: all 0.2s;
+}
+
+#timer{
+    text-align: center;
+    font-family: 'Fredoka One';
+}
+
+#live{
+    text-align: center;
+    font-family: 'Fredoka One';
+}
+
+#score{
+    text-align: center;
+    font-family: 'Fredoka One';
+}
+
+#welcome {
+    text-align: center;
+    margin:200px 0;
+    font-family: 'Fredoka One';
+}
+
+#hard-boxes {
+    display: none;
+}
+
+#eazy-boxes {
+    display: none;
+}
+
+#game-over {
+    font-size: 3em;
+    display: none;
+    text-align: center;
+  
+}
+#game-over h1{
+    color: red;
+    font-family: 'Fredoka One';
+}

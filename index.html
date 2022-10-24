@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Asset/CSS/game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <script src="./Asset/JS/game.js"></script>
+</head>
+<body>
+    <div id="header">
+        <h1>Welcome to the Stroop game</h1>
+        <h2 class="color">color</h2>
+        <div id="buttons">
+            <button id="btn-start" disabled="true">START</button>
+            <button id="btn-eazy">EAZY</button>
+            <button id="btn-hard">HARD</button>
+        </div>
+
+    </div>
+    <div>
+        <h3 hidden id="timer"></h3> 
+    </div>
+    <div id="welcome">
+        <h1>Choose your difficulty: EAZY or HARD</h1>
+    </div>
+    <div id="game-over">
+        <h1>Game over</h1>
+    </div>
+    <div id="hard-boxes">
+        <div class="container">
+            <button class="boxH">
+            </button>
+            <button class="boxH">
+            </button>
+            <button class="boxH">
+            </button>
+        </div>
+        <div class="container2">
+            <button class="boxH">
+            </button>
+            <button class="boxH">
+            </button>
+            <button class="boxH">
+            </button>
+        </div>
+    </div>
+    <div id="eazy-boxes">
+        <div class="container">
+            <button class="boxE">
+            </button>
+            <button class="boxE">
+            </button>
+            <button class="boxE">
+            </button>
+        </div>
+    </div>
+    <div id="live">
+        <h3 id="lives">Lives : 3</h3>
+    </div>
+    <div id="score">
+        <h3 id="scores">score : 0</h3>
+        <h3 id="highscore">Highscore : 0</h3>
+    </div>
+</body>
+</html>
